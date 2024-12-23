@@ -8,9 +8,3 @@ const a = " Litsey "
 const b = Number(79)
 console.log(a+b)
 console.log(" litsey " + Number(79))
-console.log
-console.log
-console.log
-console.log
-console.log
-console.log
