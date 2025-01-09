@@ -1,14 +1,3 @@
-function calc(operation, a, b) {
-switch (operation) {
-case 'add':
- return a + b;
- case 'multi' :
- return a * b;
- case 'subtract':
-    return a - b;
+for (let i=1; i<20; i++){
+console.log(i)
 }
-}
-
-console.log(calc('add', 1, 2));      
-console.log(calc('multi', 1, 2));    
-console.log(calc('subtract', 3, 2));
