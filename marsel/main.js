@@ -1,11 +1,17 @@
-function calc(operation, a, b) {
-    switch (operation) {
-    case 'add':
-    return a + b;
-    case 'multi':
-    return a * b;
-    case 'subtract':
-    return a - b;
-    }
-    }
-    console. log (calc('add', 1, 2)); console. log (calc('multi', 1, 2)); console. log (calc('subtract', 3, 2));
+let i = 1;
+
+do {
+    console.log(i);
+   i = i + 1;
+  } while (i <= 19);
+   
+   let j =1
+  for (let j = 1; j <= 19; j++) {
+    console.log(j);
+  }
+
+  let k = 1;
+  while (k <= 19) { 
+      console.log(k);
+      k = k + 1;
+  }
