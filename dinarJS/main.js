@@ -5,17 +5,17 @@ const todoList = {
       "drink power drink": "In progress",
     },
 
- changeStatus(task, status)  {
-this.tasks[task] = status
+ changeStatus:(task, status) =>  {
+todoList.tasks[task] = status
 },
-addTask(task) {
-this.tasks[task] = "to do"
+addTask:(task) => {
+todoList.tasks[task] = "to do"
 },
-deleteTask(task) {
-delete this.tasks[task]
+deleteTask:(task) => {
+delete todoList.tasks[task]
 },
-showlist() {
-console.log(this.tasks)
+showlist:() => {
+console.log(todoList.tasks)
 },
 }
 
