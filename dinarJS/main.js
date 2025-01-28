@@ -15,6 +15,6 @@ console.log(filteredtoDoList)
 console.log("Все задачи:")
 OriginaltoDoList.forEach((task, index) => { 
 console.log(task.task + "-" + task.status);
-})
+}) //забыл запушить в гит, сделал ещё пару дней назад
 
 
